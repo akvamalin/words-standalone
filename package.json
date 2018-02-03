@@ -1,0 +1,23 @@
+{
+  "name": "words-standalone",
+  "version": "0.1.0",
+  "description":
+    "This is a simple Electron app for organizing entered words into your personal dictionaries",
+  "main": "./dist/app.js",
+  "repository": "git@github.com:YevheniiMaliavka/words-standalone.git",
+  "author": "YevheniiMaliavka <Yevhenii.Maliavka@mercateo.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "electron": "electron",
+    "build:app": "tsc",
+    "run:app": "electron ."
+  },
+  "devDependencies": {
+    "typescript": "^2.7.1"
+  },
+  "dependencies": {
+    "@types/electron": "^1.6.10",
+    "electron": "^1.7.12"
+  }
+}
