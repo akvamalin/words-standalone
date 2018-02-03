@@ -12,13 +12,12 @@ const createWindow = () => {
 
   window.loadURL(
     format({
-      pathname: join(__dirname, 'index.html'),
+      pathname: join(__dirname, 'web', 'index.html'),
       protocol: 'file:',
       slashes: true
     })
   );
 
-  window.webContents.openDevTools();
   window.on('closed', () => {
     window = null;
   });

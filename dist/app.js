@@ -10,7 +10,7 @@ var createWindow = function () {
         height: 640
     });
     window.loadURL(url_1.format({
-        pathname: path_1.join(__dirname, 'index.html'),
+        pathname: path_1.join(__dirname, 'web', 'index.html'),
         protocol: 'file:',
         slashes: true
     }));

@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "jsx": "react"
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "**/web"]
 }

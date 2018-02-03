@@ -9,15 +9,24 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "electron": "electron",
     "build:app": "tsc",
-    "run:app": "electron ."
+    "run:app": "electron .",
+    "build:web": "webpack",
+    "watch:web": "webpack-dev-server"
   },
   "devDependencies": {
-    "typescript": "^2.7.1"
+    "awesome-typescript-loader": "^3.4.1",
+    "typescript": "^2.7.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
   },
   "dependencies": {
     "@types/electron": "^1.6.10",
-    "electron": "^1.7.12"
+    "@types/react": "^16.0.36",
+    "@types/react-dom": "^16.0.3",
+    "electron": "^1.7.12",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
